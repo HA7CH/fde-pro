@@ -47,15 +47,15 @@ const DIMS: Row[] = [
 const LINKS: Row[] = [
   {
     title: "GitHub",
-    desc: "github.com/LAWTED/fde-pro · 源码与 skill",
+    desc: "github.com/HA7CH/fde-pro · 源码与 skill",
     meta: "Repo",
-    href: "https://github.com/LAWTED/fde-pro",
+    href: "https://github.com/HA7CH/fde-pro",
   },
   {
     title: "小红书 SkillHub",
     desc: "RedSkill 商店,搜索 fde-pro 一键安装",
     meta: "Store",
-    href: "https://github.com/LAWTED/fde-pro",
+    href: "https://github.com/HA7CH/fde-pro",
   },
   {
     title: "FDE 卡片示例",
@@ -195,7 +195,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="fde-footer">
-        <a className="fde-link" href="https://github.com/LAWTED/fde-pro" target="_blank" rel="noopener noreferrer">
+        <a className="fde-link" href="https://github.com/HA7CH/fde-pro" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         <span aria-hidden>·</span>
