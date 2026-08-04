@@ -55,7 +55,7 @@ const LINKS: Row[] = [
     title: "小红书 SkillHub",
     desc: "RedSkill 商店,搜索 fde-pro 一键安装",
     meta: "Store",
-    href: "https://github.com/HA7CH/fde-pro",
+    href: "https://redskill.xiaohongshu.net/install.md",
   },
   {
     title: "FDE 卡片示例",
