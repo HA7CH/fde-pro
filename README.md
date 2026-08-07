@@ -6,11 +6,26 @@
 
 上传简历,诚实诊断你是不是 FDE、缺哪半、走土路线还是大厂路线、未来 30 天该干什么。
 
-[fde.ha7ch.com](https://fde.ha7ch.com) · [全息卡片](https://fde.ha7ch.com/c/lawted) · [深大讲座](https://fde.ha7ch.com/course)
+[进入 HA7CH School](https://school.ha7ch.com) · [FDE 全息卡片（兼容保留）](https://fde.ha7ch.com/c/lawted) · [深大讲座](https://fde.ha7ch.com/course)
 
 <sub>HA7CH PRO · Build in the field, hatch into impact.</sub>
 
 </div>
+
+---
+
+> [!IMPORTANT]
+> **fde-pro 已并入 [HA7CH School](https://school.ha7ch.com)。** FDE 诊断现在是 School 的 FDE 课程内置实验 Skill，不需要再单独安装。本仓库进入兼容维护期：现有全息卡片与讲座链接继续可用，新的课程与诊断规则以 `HA7CH/ha7ch-school` 为准。
+
+## 新入口
+
+安装或更新 HA7CH School：
+
+```bash
+npx -y @ha7ch/school@latest
+```
+
+加载后选择「FDE」，进入第 3 课即可运行内置诊断。仓库与课程更新请前往 [HA7CH/ha7ch-school](https://github.com/HA7CH/ha7ch-school)。
 
 ---
 
@@ -28,9 +43,9 @@
 
 ---
 
-## 怎么用
+## 旧版独立安装（仅兼容）
 
-在 **Claude Code** 里,走小红书 **RedSkill** 口令安装:
+旧的 `fde-pro` Skill 仍可运行，但不再作为推荐入口。新用户请从 HA7CH School 开始；下面只为已有安装者保留：
 
 ```
 # 1. 先装 RedSkill 商店(按官方指引)

@@ -46,15 +46,21 @@ const DIMS: Row[] = [
 // 链接
 const LINKS: Row[] = [
   {
+    title: "HA7CH School",
+    desc: "FDE 课程与内置诊断的新入口",
+    meta: "New home",
+    href: "https://school.ha7ch.com",
+  },
+  {
     title: "GitHub",
-    desc: "github.com/HA7CH/fde-pro · 源码与 skill",
-    meta: "Repo",
-    href: "https://github.com/HA7CH/fde-pro",
+    desc: "github.com/HA7CH/ha7ch-school · 课程与诊断源码",
+    meta: "Source",
+    href: "https://github.com/HA7CH/ha7ch-school",
   },
   {
     title: "小红书 SkillHub",
-    desc: "RedSkill 商店,搜索 fde-pro 一键安装",
-    meta: "Store",
+    desc: "旧版 fde-pro 独立安装入口,仅为已有用户保留",
+    meta: "Legacy",
     href: "https://redskill.xiaohongshu.net/install.md",
   },
   {
@@ -65,7 +71,7 @@ const LINKS: Row[] = [
   },
 ];
 
-const UPDATED = "Jun 24, 2026";
+const UPDATED = "Aug 8, 2026";
 
 function Section({ title, items }: { title: string; items: Row[] }) {
   return (
@@ -126,11 +132,16 @@ export default function Home() {
           </span>
         </h1>
         <span className="fde-wordmark">fde-pro</span>
-        <time dateTime="2026-06-24">Updated {UPDATED}</time>
+        <time dateTime="2026-08-08">Updated {UPDATED}</time>
       </header>
 
       {/* Intro prose — clipped, editorial */}
       <div className="fde-intro">
+        <p>
+          <strong>fde-pro 已并入 HA7CH School。</strong>诊断现在是 FDE 课程的内置实验 Skill，
+          新用户不需要单独安装。<a className="fde-link" href="https://school.ha7ch.com">进入 School →</a>
+        </p>
+
         <p>
           上传简历或描述经历,一个真正驻过场的 FDE 帮你诚实诊断 ——{" "}
           <strong>敢说你现在不适合。</strong>
@@ -175,17 +186,16 @@ export default function Home() {
 
       {/* 怎么用 — RedSkill 口令 */}
       <section className="fde-section">
-        <h2 className="fde-section-title">怎么用</h2>
+        <h2 className="fde-section-title">新入口</h2>
         <div className="fde-intro">
-          <p>在小红书 RedSkill 商店一键安装:</p>
+          <p>安装 HA7CH School，加载后选择「FDE」，进入第 3 课运行内置诊断:</p>
           <div className="fde-command">
             <span className="fde-command-prompt">$</span>
-            <code>redskill install fde-pro</code>
+            <code>npx -y @ha7ch/school@latest</code>
           </div>
           <p className="fde-command-note">
-            或者:在 Claude Code 里装好后直接说「帮我看看我适不适合做 FDE」触发{" "}
-            <span className="fde-code-inline">fde-pro</span>;也可在小红书 SkillHub
-            搜索 fde-pro 体验。
+            已有独立 <span className="fde-code-inline">fde-pro</span> 安装仍可使用；
+            后续课程和诊断规则统一在 HA7CH School 更新。全息卡片与讲座链接继续保留。
           </p>
         </div>
       </section>
@@ -195,8 +205,8 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="fde-footer">
-        <a className="fde-link" href="https://github.com/HA7CH/fde-pro" target="_blank" rel="noopener noreferrer">
-          GitHub
+        <a className="fde-link" href="https://school.ha7ch.com" target="_blank" rel="noopener noreferrer">
+          HA7CH School
         </a>
         <span aria-hidden>·</span>
         <a className="fde-link" href="https://fde.ha7ch.com/c/lawted" target="_blank" rel="noopener noreferrer">
