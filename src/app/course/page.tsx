@@ -326,17 +326,17 @@ export default function CoursePage() {
       </p>
     </div>,
 
-    /* ---- S17 · 工具页 fde-pro (降低门槛, CTA 之一) ---- */
+    /* ---- S17 · School 内置诊断 (降低门槛, CTA 之一) ---- */
     <div className="col" key="s17">
       <div className="head">
         <h1 className="title stagger">不知道够不够格？有把尺子。</h1>
         <p className="sub stagger">
-          fde-pro：诚实的 FDE 转型诊断。它敢说“你现在不适合”。
+          HA7CH School 内置的 FDE 转型诊断。它敢说“你现在不适合”。
         </p>
       </div>
       <ul className="points">
-        <li className="stagger">网页 · fde.ha7ch.com</li>
-        <li className="stagger">Claude Code · redskill install fde-pro</li>
+        <li className="stagger">课程入口 · school.ha7ch.com</li>
+        <li className="stagger">Claude Code · npx -y @ha7ch/school@latest</li>
       </ul>
       <p className="sub stagger">
         最后给你一张 fde-card：总分 + 象限 + 七维迷你雷达。
