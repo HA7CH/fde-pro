@@ -48,8 +48,8 @@
 | **Coding 非 LeetCode**(CSV/CLI/rate limiter/RAG,边写边讲、自己抓 bug) | **Delta(端到端可跑、当场可验)** | 务实非刷题,正是"会用 Cursor/Claude Code 端到端跑起来"的入场券面 |
 | AI 岗对 **eval** 含糊("怎么知道它 work")=头号拒因 | **满分尺子(当场可验)+ 价值在一线** | 见下方 Eval 专项 |
 | "当普通 SWE 面、刷 LeetCode 无 case 准备" | **R8**(把 FDE 当高薪 SWE/不愿面客) | 同一类错 |
-| 向非技术 VP 解释局限、客户共情 | **四条现场真相 ③**(价值在一线不在主管) | |
-| "集成进客户生产管线"而非替换系统 | **四条现场真相 ①**(反平台是生死线) | Google FDE 明写"把 pilot 推到 production"=增量插件思路 |
+| 向非技术 VP 解释局限、客户共情 | **现场真相 ③**(价值在一线不在主管) | |
+| "集成进客户生产管线"而非替换系统 | **现场真相 ①**(反平台是生死线) | Google FDE 明写"把 pilot 推到 production"=增量插件思路 |
 
 **给读者一句话:** 你若已在 SKILL.md 被判 Echo+Delta 齐备,大厂面试对你不是新考纲,是把你做过的事用 decomposition / I-not-we / customer-outcome 三套语言重讲一遍。
 
