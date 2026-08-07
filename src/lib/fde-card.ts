@@ -21,7 +21,7 @@ export interface FdeLinks {
   site?: string;
   /** github profile, e.g. "github.com/lawted" */
   github?: string;
-  /** public card url, e.g. "fde.ha7ch.tech/lawted" */
+  /** public card url, e.g. "fde.ha7ch.com/c/lawted" */
   card?: string;
 }
 
